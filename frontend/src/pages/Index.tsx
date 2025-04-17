@@ -1,7 +1,7 @@
-import { Navbar } from "@/components/navbar";
-import { TestimonialSlider } from "@/components/testimonials";
-import { SignUpForm } from "@/components/signup";
-import { CustomButton } from "@/components/ui/button-library";
+import { Navbar } from "../components/navbar";
+import { TestimonialSlider } from "../components/testimonials";
+import { SignUpForm } from "../components/signup";
+import { CustomButton } from "../components/ui/button-library";
 import { ArrowRight, Cpu, ShieldCheck, TrendingUp } from "lucide-react";
 
 const Index = () => {
