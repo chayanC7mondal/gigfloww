@@ -5,6 +5,7 @@ import { CustomButton } from "../components/ui/button-library";
 import { ArrowRight, Cpu, ShieldCheck, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import { Footer } from "../components/footer";
 
 const Index = () => {
   const { ref: heroRef, controls: heroControls } = useScrollAnimation();
@@ -178,6 +179,8 @@ const Index = () => {
           <SignUpForm />
         </div>
       </motion.section>
+
+      <Footer className="pb-8" />
     </div>
   );
 };
